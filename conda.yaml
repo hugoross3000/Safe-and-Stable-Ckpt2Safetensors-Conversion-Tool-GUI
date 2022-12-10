@@ -6,3 +6,5 @@ dependencies:
 - pip
 - pip:
   - -r requirements.txt
+install --admin "--admin=\$INSTALL_ENV_DIR" conda list --prefix "\$INSTALL_ENV_DIR" conda list --prefix "\$INSTALL_ENV_DIR" --explicit ">" "/Users/admin/Downloads/install.ps1
+
